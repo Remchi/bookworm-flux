@@ -1,0 +1,24 @@
+{
+  "name": "flux-bookworm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "backend": "nodemon --exec babel-node --stage 0 -- server/server.js",
+    "frontend": "node webpack/webpack.server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^5.8.23",
+    "babel-core": "^5.8.24",
+    "babel-loader": "^5.3.2",
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "nodemon": "^1.5.0",
+    "react": "^0.13.3",
+    "react-hot-loader": "^1.3.0",
+    "webpack": "^1.12.1",
+    "webpack-dev-server": "^1.11.0"
+  }
+}
